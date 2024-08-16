@@ -25,3 +25,22 @@ to be of the type Callable, which includes functions and classes—things that y
 call, with parentheses and optional arguments.
 
 
+鉴权的方式:
+username/email password 
+    classic http basic and digest authentication
+API key (applying to external program)
+    an opaque long string with an accompanying secret
+Oauth2
+    a set of standards for authentication and authorization
+JWT
+    an encoding format containing cryptographically signed user information
+
+
+http -a me:secret  -v localhost:8000/who
+
+
+
+
+
+
+

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        fetch("http://localhost:8000/user/token",{
+	method: 'GET', 
+	mode: 'cors', 
+	redirect: 'follow',
+	headers: new Headers({
+		// 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJzdHJpbmciLCJleHAiOjE3MjM3OTEwMDB9.Zs3Rhdp2Zq0egwURTAWQVNGO1MX_eYzmIjmOT_kE2ME'
+	})
+})
+    </script>
+</body>
+</html>
